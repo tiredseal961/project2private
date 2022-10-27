@@ -1,0 +1,213 @@
+
+  canvas {
+    width: 100vw;
+    height: 100vh;
+    display: inline;
+    position: fixed;
+  }
+
+  html {
+    background: url("assets/background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+  }
+  main {
+    color: black;
+    z-index: 99;
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px 0 0 200px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  :root {
+    --dark-bg: rgba(255, 255, 255, 0.95);
+    --spacing: 10vw;
+  }
+
+  p{
+    font-family: Metropolis-Light;
+  }
+  .header{
+    flex-wrap: wrap;
+    width: 770px;
+    border-radius: 0.6944444444444444vw;
+    border: rgba(255, 255, 255, 0.93);
+    box-shadow: 0 0 1.3888888888888888vw   0.3472222222222222vw rgba(0, 0, 0, 0.15);
+    background: var(--dark-bg);
+    grid-column: 2 / span 5;
+    padding: 2vw;
+    margin-bottom: var(--spacing);
+    font-size: 18px;
+    font-family: 'Metropolis-Regular';
+    color: black;
+  }
+
+  .section-part1 {
+    width: 800px;
+    border-radius: 0.6944444444444444vw;
+    border: rgba(255, 255, 255, 0.93);
+    box-shadow: 0 0 1.3888888888888888vw   0.3472222222222222vw rgba(0, 0, 0, 0.15);
+    background: var(--dark-bg);
+    grid-column: 2 / span 5;
+    padding: 2.2vw;
+    margin-bottom: var(--spacing);
+    flex-wrap: wrap;
+    font-size: 14px;
+    font-family: 'Metropolis-Thin';
+    text-align: start;
+
+  }
+
+  .sketch{
+    width: 800px;
+    border-radius: 0.6944444444444444vw;
+    border: rgba(255, 255, 255, 0.93);
+    box-shadow: 0 0 1.3888888888888888vw   0.3472222222222222vw rgba(0, 0, 0, 0.15);
+    background: var(--dark-bg);
+    grid-column: 2 / span 5;
+    padding: 2.2vw;
+    margin-bottom: var(--spacing);
+    flex-wrap: wrap;
+    font-size: 14px;
+    font-family: 'Metropolis-Thin';
+    text-align: start;
+    flex-wrap: wrap;
+
+  }
+
+  .img{
+    height:auto;
+    width:auto;
+    max-height:350px;
+    margin-bottom: 12px;
+  }
+
+  .section-part2 {
+    width: 800px;
+    border-radius: 0.6944444444444444vw;
+    border: rgba(255, 255, 255, 0.93);
+    box-shadow: 0 0 1.3888888888888888vw   0.3472222222222222vw rgba(0, 0, 0, 0.15);
+    background: var(--dark-bg);
+    grid-column: 2 / span 5;
+    padding: 2.2vw;
+    margin-bottom: var(--spacing);
+    flex-wrap: wrap;
+    font-size: 14px;
+    font-family: 'Metropolis-Thin';
+    text-align: start;
+    flex-wrap: wrap; /* changes with sizing the screeb */
+
+  }
+
+  .section-part3{
+    width: 800px;
+    border-radius: 0.6944444444444444vw;
+    border: rgba(255, 255, 255, 0.93);
+    box-shadow: 0 0 1.3888888888888888vw   0.3472222222222222vw rgba(0, 0, 0, 0.15);
+    background: var(--dark-bg);
+    grid-column: 2 / span 5;
+    padding: 2.2vw;
+    margin-bottom: var(--spacing);
+    flex-wrap: wrap;
+    font-size: 14px;
+    font-family: 'Metropolis-Thin';
+    text-align: start;
+    flex-wrap: wrap; /* changes with sizing the screeb */
+    flex-direction: row;
+    display: block;  /* you need this to align images, can be flex or block*/
+    justify-content: center; /*x axis*/
+    align-items: center; /*y axis*/
+    align-self: center;
+    align-content: center;
+
+  }
+
+  .section-part4{
+    width: 800px;
+    border-radius: 0.6944444444444444vw;
+    border: rgba(255, 255, 255, 0.93);
+    box-shadow: 0 0 1.3888888888888888vw   0.3472222222222222vw rgba(0, 0, 0, 0.15);
+    background: var(--dark-bg);
+    grid-column: 2 / span 5;
+    padding: 2.2vw;
+    margin-bottom: var(--spacing);
+    flex-wrap: wrap;
+    font-size: 14px;
+    font-family: 'Metropolis-Thin';
+    text-align: start;
+
+  }
+
+  .section-part5{
+    width: 800px;
+    border-radius: 0.6944444444444444vw;
+    border: rgba(255, 255, 255, 0.93);
+    box-shadow: 0 0 1.3888888888888888vw   0.3472222222222222vw rgba(0, 0, 0, 0.15);
+    background: var(--dark-bg);
+    grid-column: 2 / span 5;
+    padding: 2.2vw;
+    margin-bottom: var(--spacing);
+    flex-wrap: wrap;
+    font-size: 14px;
+    font-family: 'Metropolis-Thin';
+    text-align: start;
+
+  }
+
+
+  /* Style the navbar */
+  #navbar {
+    overflow: hidden;
+  }
+
+  /* Navbar links */
+  #navbar a {
+    font-size: 1.15vw;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 0.5vw;
+    text-decoration: none;
+    color: black;
+
+  }
+
+  /* Navbar links */
+  #navbar a:hover {
+    font-family: 'Metropolis-SemiBold';
+  }
+
+  /* Navbar links */
+  #navbar a:active {
+    font-family: 'Metropolis-SemiBold';
+
+  }
+  .img-small{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .img-large{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: auto; 
+    max-width: 750px;
+    max-height: 750px;
+    min-width: 20%;
+    min-height: 20%;
+    box-shadow: 0 0 1.3888888888888888vw   0.3472222222222222vw rgba(0, 0, 0, 0.15);
+  }
+
+  li{
+    margin: 20px 0;
+  }
